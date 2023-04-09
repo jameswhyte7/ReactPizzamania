@@ -1,5 +1,5 @@
 function Header (){
-    return Header(
+    return (
         <div>
 			<nav className=" navbar-home navbar navbar-expand-lg navbar-light bg-light">
 				<a className="navbar-brand" href="#">
@@ -31,7 +31,7 @@ function Header (){
 				</div>
 			</nav>
 		</div>
-    )
+	)
 }
 
 export default Header;
